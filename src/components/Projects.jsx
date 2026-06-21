@@ -5,18 +5,34 @@ function Projects() {
         Projects
       </h2>
 
-      <div className="grid md:grid-cols-3 gap-4">
-        <div className="p-4 shadow rounded">
-          Student Management System
-        </div>
+      <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        <a
+          href="https://github.com/DevDani12/Inventory-system.git"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block p-6 bg-white shadow rounded hover:shadow-lg transition-shadow"
+        >
+          <h3 className="text-xl font-semibold mb-2">
+            Inventory System
+          </h3>
+          <p className="text-gray-600">
+            A full-stack inventory management system built with React, Node.js, Express.js, and MongoDB.
+          </p>
+        </a>
 
-        <div className="p-4 shadow rounded">
-          Portfolio Website
-        </div>
-
-        <div className="p-4 shadow rounded">
-          E-Commerce Website
-        </div>
+        <a
+          href="https://github.com/belaynewzewdie90-boop/merkato-store.git"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block p-6 bg-white shadow rounded hover:shadow-lg transition-shadow"
+        >
+          <h3 className="text-xl font-semibold mb-2">
+            Merkato Store
+          </h3>
+          <p className="text-gray-600">
+            A team collaboration e-commerce platform for online marketplace transactions.
+          </p>
+        </a>
       </div>
     </section>
   );
